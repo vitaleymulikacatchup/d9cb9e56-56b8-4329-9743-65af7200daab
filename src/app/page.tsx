@@ -6,6 +6,7 @@ import SplitAbout from '@/components/sections/layouts/about/SplitAbout';
 import HowToBuy2D from '@/components/sections/layouts/howtobuy/2DHTB';
 import BigNumberTokenomics from '@/components/sections/layouts/tokenomics/BigNumberTokenomics';
 import FooterLogoEmphasis from '@/components/footer/FooterLogoEmphasis';
+import { NumberGridTokenomics } from '@/components/sections/layouts/tokenomics/NumberGridTokenomics';
 
 const navItems = [
   { name: "Hero", id: "hero" },
@@ -53,8 +54,8 @@ export default function Home() {
           title="Our Tokenomics"
           description="Transparency and efficiency in all aspects."
           kpiItems={[
-            { value: "100M", description: "Total Supply", longDescription: "The maximum supply of our tokens.", icon: null },
-            { value: "10M", description: "Circulating Supply", longDescription: "How many tokens are currently in circulation.", icon: null }
+            { value: "100M", description: "Total Supply", longDescription: "The maximum supply of our tokens.", icon: undefined },
+            { value: "10M", description: "Circulating Supply", longDescription: "How many tokens are currently in circulation.", icon: undefined }
           ]}
         />
       </div>
