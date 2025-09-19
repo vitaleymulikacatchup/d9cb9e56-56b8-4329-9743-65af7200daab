@@ -62,13 +62,12 @@ export default function Home() {
         <FooterLogoEmphasis
           logoSrc="/images/logo.svg"
           logoAlt="Xeven Solutions Logo"
-          logoText="Xeven"
           columns={[
             { items: [{ label: 'Privacy Policy', onClick: () => console.log('Privacy Policy') }, { label: 'Terms of Service', onClick: () => console.log('Terms of Service') }] },
             { items: [{ label: 'Contact Us', onClick: () => console.log('Contact Us') }, { label: 'About Us', onClick: () => console.log('About Us') }] },
             { items: [{ label: 'Support', onClick: () => console.log('Support') }, { label: 'FAQ', onClick: () => console.log('FAQ') }] }
           ]}
-          copyrightText="© 2024 Xeven Solutions"
+          logoText="Xeven"
           onPrivacyClick={() => console.log('Privacy Policy Clicked')}
         />
       </div>
