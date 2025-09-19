@@ -68,7 +68,6 @@ export default function Home() {
             { items: [{ label: 'Support', onClick: () => console.log('Support') }, { label: 'FAQ', onClick: () => console.log('FAQ') }] }
           ]}
           logoText="Xeven"
-          onPrivacyClick={() => console.log('Privacy Policy Clicked')}
         />
       </div>
     </SiteThemeProvider>
