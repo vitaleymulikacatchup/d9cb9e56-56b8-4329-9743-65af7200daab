@@ -6,7 +6,6 @@ import SplitAbout from '@/components/sections/layouts/about/SplitAbout';
 import HowToBuy2D from '@/components/sections/layouts/howtobuy/2DHTB';
 import BigNumberTokenomics from '@/components/sections/layouts/tokenomics/BigNumberTokenomics';
 import FooterLogoEmphasis from '@/components/footer/FooterLogoEmphasis';
-import { NumberGridTokenomics } from '@/components/sections/layouts/tokenomics/NumberGridTokenomics';
 
 const navItems = [
   { name: "Hero", id: "hero" },
